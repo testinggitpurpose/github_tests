@@ -5,6 +5,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 // Middleware setup
 app.use(cors());
+
 app.use(bodyParser.json());
 
 // Sample route
